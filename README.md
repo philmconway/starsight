@@ -14,6 +14,12 @@ OWNER = "your-username"
 
 REPO = "your-repo"
 
+Then run the script from within a python virtual environment.
+
+python3.13 -m venv .venv
+source .venv/bin/activate 
+python3 starsight.py
+
 # Output
 
 Results are saved in starsight.csv in the same folder as the script.
